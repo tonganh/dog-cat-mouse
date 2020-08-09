@@ -1,5 +1,7 @@
-function Horse() {};
-Horse.prototype.run = function() {
-  console.log('run');
+function Horse() {
+    
 };
+Horse.prototype.jump=function(){
+    console.log('Jump...');
+}
 module.exports = Horse;
